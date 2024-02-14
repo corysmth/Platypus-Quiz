@@ -1,0 +1,98 @@
+/* Type your CSS code */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #b08980;
+}
+
+/* container for quiz elements */
+.app {
+  background: white;
+  width: 90%;
+  max-width: 600px;
+  margin: 60px auto;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.app h1 {
+  font-size: 60px;
+  color: black;
+  font-weight: 600;
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.quiz {
+  padding: 20px 0;
+}
+
+.quiz h2 {
+  font-size: 24px;
+  color: black;
+  font-weight: 600px;
+  padding-bottom: 12px;
+}
+
+.btn {
+  background: white;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+  background: #fdf5f3;
+  color: black;
+}
+
+.btn:disabled {
+  cursor: no-drop;
+}
+
+#next-btn {
+  background: black;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #552222ff;
+  transition: 0.3s;
+  display: none;
+}
+
+#next-btn:hover {
+  background: #3d3d3d;
+  color: white;
+}
+
+.correct {
+  background: #6dbdac;
+  color: white;
+}
+
+.incorrect {
+  background: #d47272;
+  color: white;
+}
